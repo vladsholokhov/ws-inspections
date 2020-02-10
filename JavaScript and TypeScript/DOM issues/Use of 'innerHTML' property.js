@@ -1,0 +1,3 @@
+// default - OFF
+
+document.innerHTML;
