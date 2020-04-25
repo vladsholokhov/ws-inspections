@@ -1,5 +1,8 @@
 // default - ON
 
-function f() {
-    const propertyShorthand = { shortHand: 'shortHand'}
+function propertyShorthandFunction() {
+    const shortHand = 'shortHand';
+    const propertyShorthand = {shortHand: shortHand} // only fix
 }
+
+// https://eslint.org/docs/rules/object-shorthand
